@@ -90,7 +90,7 @@ struct beat_event_t {
 //     0x40 regs[6] : bpm_value    —— 实时 BPM (IEEE754 float)
 //     0x50 regs[7] : debug_cnt    —— 计入直方图的峰(节拍)累计次数
 //     0x60 regs[8] : energy_ratio —— 当前窗包络能量 env_sum 低32位
-//   PYNQ 脚本必须按 0x40/0x50/0x60 读取(旧 XSA36 的 0x58/0x5C 已不适用)。
+
 #define REG_TOTAL       0
 #define REG_BPM         6
 #define REG_DEBUG       7

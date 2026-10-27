@@ -21,11 +21,13 @@ DDR，PS 端用 Python/NumPy 完成 BPM 检测与实时双波形可视化。
 ## 目录结构
 
 - `hardware/hls` —— bpm_detect HLS IP 源码与 C 仿真（bpm_detect.cpp/.h、tb.cpp）
-- `hardware/tcl` —— Vivado Block Design 集成脚本（design_1_BYPASS.tcl）
+- `hardware/tcl` —— Vivado Block Design 集成脚本（design_1.tcl）
+- `hardware/IP` —— 打包的 IP（adau1761_1.0 / bpm_detect / segment_stream）
+- `hardware/xsa` —— 综合导出的硬件平台（design_1_wrapper.xsa）
 - `notebooks/` —— PYNQ / Jupyter 实时采集与双波形可视化
-- `report/` —— 作品报告（docx / pdf）
-- `docs/` —— 排障记录、链路打通笔记与硬件诊断报告
-- `assets/` —— 运行截图 / 波形图
+- `report/` —— 作品报告（pdf）
+- `docs/` —— 排障记录、链路打通笔记与阶段总结
+- `assets/` —— 运行截图 / 演示视频 / 波形图
 
 ## 运行环境
 
