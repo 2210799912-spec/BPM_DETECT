@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Office/Word 临时锁文件
+~$*
+
+# Vivado / Vitis 生成物
+.hw/
+.ip_user_files/
+.runs/
+.sdk/
+.vitis/
+*.jou
+*.log
+*.wdb
+*.bit
+*.bin
+*.ltx
+
+# 系统/编辑器
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
